@@ -1,6 +1,6 @@
 from folder1.sum import summation
-from folder1.sub import calculate_Subtraction
-from folder2.avr import average
+from sub_branch.sub import calculate_Subtraction
+from folder-average.average import average
 from folder2.max import maximum
 
 choice = int(input("Choose operation:\n1 - Add\n2 - Sub\n3 - max\n4 - Avg\n> "))
